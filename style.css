@@ -1,0 +1,3908 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i";
+@import "https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+    color: #666;
+    font-family: lato, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    color: #222;
+    font-family: roboto, sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.1px;
+    margin: 0 0 8px;
+}
+h1 {
+    font-size: 26px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 22px;
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 18px;
+}
+h6 {
+    font-size: 16px;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #222;
+}
+p a {
+    color: #666;
+}
+p {
+    line-height: 24px;
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+}
+ul {
+    margin-bottom: 0;
+}
+figure {
+    margin-bottom: 6px;
+    position: relative;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+strong {
+    color: #555;
+}
+iframe {
+    border: none;
+    float: left;
+    width: 100%;
+}
+.wp-caption,
+.wp-caption-text,
+.gallery-caption,
+.bypostauthor {
+}
+.wp-caption.alignleft,
+.wp-caption.alignnone {
+    width: 100%;
+}
+select {
+    background-color: #f0eef0;
+    border: 1px solid #dfdfdf;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    height: 40px;
+    padding: 8px 12px;
+    width: 100%;
+}
+label {
+    color: #222;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+button {
+    border: none;
+}
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    background-color: #f2f2f2;
+    border: none;
+    box-sizing: border-box;
+    color: #aaa9a9;
+    display: inline-block;
+    font-size: 13px;
+    height: 30px;
+    line-height: 20px;
+    outline: none;
+    padding: 4px 6px;
+    vertical-align: middle;
+    box-shadow: none;
+}
+input[type="submit"] {
+    outline: none;
+}
+form p {
+    float: left;
+    position: relative;
+}
+form p span i {
+    color: #474747;
+    left: 16px;
+    position: absolute;
+    top: 13px;
+}
+option {
+    padding: 5px 15px;
+}
+li {
+    line-height: 28px;
+    list-style: inside none disc;
+}
+ul ul {
+    margin-left: 20px;
+}
+ol {
+    float: none;
+    list-style: outside none decimal;
+    padding-left: 15px;
+}
+ol ol {
+    margin-left: 20px;
+}
+ol li {
+    list-style: outside none decimal;
+    width: 100%;
+}
+table {
+    background-color: transparent;
+    max-width: 100%;
+}
+th {
+    text-align: left;
+}
+table {
+    margin-bottom: 15px;
+    width: 100%;
+}
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+    border: 1px solid #ddd;
+    line-height: 1.5;
+    padding-left: 3px;
+    text-align: center;
+    vertical-align: top;
+}
+table thead tr th {
+    border-top: 1px solid #ddd;
+    text-align: center;
+    text-transform: capitalize;
+}
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+    border-top: 1px solid #ddd;
+}
+table > thead > tr > th {
+    border-bottom: 2px solid #ddd;
+    vertical-align: bottom;
+}
+table > caption + thead > tr:first-child > th,
+table > colgroup + thead > tr:first-child > th,
+table > thead:first-child > tr:first-child > th,
+table > caption + thead > tr:first-child > td,
+table > colgroup + thead > tr:first-child > td,
+table > thead:first-child > tr:first-child > td {
+    border-bottom: 0;
+}
+table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 6px 10px;
+}
+p ins {
+    color: #999;
+}
+dl dd {
+    margin-left: 20px;
+}
+address {
+    font-style: italic;
+}
+.sticky {
+}
+.moverspackers-main-section {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.moverspackers-main-content {
+    padding: 100px 0 60px;
+}
+.moverspackers-strip-info.moverspackers-right-section {
+    float: right;
+}
+.moverspackers-left-section {
+    float: left;
+}
+.moverspackers-main-wrapper,
+.moverspackers-main-content {
+    float: left;
+    width: 100%;
+}
+.moverspackers-top-strip {
+    float: left;
+    width: 100%;
+    padding: 10px 0 12px;
+}
+.moverspackers-strip-info {
+    float: left;
+}
+.moverspackers-strip-info li {
+    list-style: none;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    color: #fff;
+    font-family: roboto, sans-serif;
+    padding: 0 20px;
+}
+.moverspackers-strip-info li:first-child {
+    padding-left: 0;
+}
+.moverspackers-strip-info li:last-child {
+    padding-right: 0;
+}
+.moverspackers-strip-info li:last-child:before {
+    content: none;
+}
+.moverspackers-strip-info li:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 9px;
+    width: 1px;
+    height: 12px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.moverspackers-strip-info li a {
+    color: #fff;
+}
+.moverspackers-strip-info li i {
+    margin: 7px 10px 0 0;
+    float: left;
+}
+.moverspackers-main-header {
+    float: left;
+    width: 100%;
+    border-bottom: 5px solid;
+}
+.logo {
+    float: left;
+    width: 100%;
+    padding: 24px 0;
+}
+.navbar {
+    background: 0 0;
+    border: none;
+    float: left;
+    margin-bottom: 0;
+    text-align: left;
+}
+.navbar-nav > li {
+    padding: 0 29px;
+}
+.navbar-nav > li > a {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 30px 0;
+    position: relative;
+    color: #222;
+    font-family: roboto, sans-serif;
+}
+.navbar-nav > li:first-child {
+    padding-left: 19px;
+}
+.navbar-nav > li:last-child {
+    padding-right: 0;
+}
+.navbar-nav > li > a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 26px;
+    width: 0;
+    opacity: 0;
+    height: 1px;
+}
+.navbar-nav > li > a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 26px;
+    width: 0;
+    opacity: 0;
+    height: 1px;
+}
+.navbar-nav > li:hover > a:before,
+.navbar-nav > li:hover > a:after,
+.navbar-nav > li.active > a:before,
+.navbar-nav > li.active > a:after {
+    width: 25px;
+    opacity: 1;
+}
+.navbar-nav li:hover > .moverspackers-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.moverspackers-dropdown-menu {
+    background-color: #fff;
+    left: 0;
+    margin: 10px 0 0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    visibility: hidden;
+    width: 240px;
+    z-index: 999;
+}
+.moverspackers-dropdown-menu .moverspackers-dropdown-menu {
+    left: 100%;
+    top: 0%;
+    margin: 0 0 0 5px;
+}
+.moverspackers-dropdown-menu > li {
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.moverspackers-dropdown-menu li a {
+    border-bottom: 1px solid #f8f8f8;
+    color: #576777;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 13px 25px;
+    width: 100%;
+}
+.moverspackers-dropdown-menu li:hover a {
+    color: #fff;
+}
+.moverspackers-dropdown-menu li > .moverspackers-dropdown-menu li:hover a {
+    color: #fff;
+}
+.moverspackers-dropdown-menu li > .moverspackers-dropdown-menu li a {
+    background-color: #fff;
+    color: #576777;
+}
+.moverspackers-dropdown-menu > li:last-child > a {
+    border: none;
+}
+.moverspackers-dropdown-menu > li.subdropdown-addicon > a:before {
+    content: "\f107";
+    font-family: FontAwesome;
+    float: right;
+    margin: 0;
+    color: #999;
+}
+.collapse {
+    display: none;
+}
+.moverspackers-simple-btn {
+    float: right;
+    font-family: roboto, sans-serif;
+    padding: 10px 22px;
+    color: #fff;
+    font-weight: 700;
+    margin: 20px 0 0;
+    letter-spacing: 1px;
+}
+.moverspackers-banner {
+    float: left;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.banner-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(39, 43, 61, 0.3);
+}
+.banner-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    background: rgba(39, 43, 61, 0.9);
+}
+.moverspackers-banner-caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin: -151px 0 0;
+}
+.moverspackers-banner-thumb {
+    position: absolute;
+    margin: -170px 0 0;
+    right: 0;
+    top: 0;
+}
+.moverspackers-banner-caption:after {
+    content: "";
+    background: url(images/banner-icon.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 311px;
+    opacity: 0.08;
+}
+.moverspackers-banner-text {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 77%;
+}
+.moverspackers-banner-text h5 {
+    color: #fff;
+    margin: 0 0 3px;
+    text-transform: uppercase;
+}
+.moverspackers-banner-text h1 {
+    margin: 0 0 22px;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2.3px;
+    line-height: 45px;
+}
+.moverspackers-banner-text p {
+    font-size: 15px;
+    color: #fff;
+    margin: 0 0 33px;
+    line-height: 26px;
+}
+.moverspackers-classic-btn {
+    float: left;
+    border: 2px solid #fff;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 20px 0 0;
+    padding: 8px 23px;
+}
+.moverspackers-fancy-title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: 0 0 66px;
+}
+.moverspackers-fancy-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: -1px 0 32px;
+    line-height: 0.8;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+.moverspackers-fancy-title > span {
+    position: absolute;
+    left: 50%;
+    top: -49px;
+    opacity: 0.08;
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0 0 0 -47px;
+    letter-spacing: 1.5px;
+}
+.moverspackers-fancy-title p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 26px;
+    font-style: italic;
+    display: inline-block;
+    width: 84%;
+    letter-spacing: 1.3px;
+}
+.moverspackers-services,
+.moverspackers-services-text,
+.moverspackers-services-wrap {
+    float: left;
+    width: 100%;
+}
+.moverspackers-services > ul > li {
+    margin: 0 0 30px;
+    list-style: none;
+}
+.moverspackers-services-wrap {
+    padding: 20px 0 0 20px;
+}
+.moverspackers-services-text {
+    padding: 24px 40px 33px 43px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+.moverspackers-services-text i {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    width: 60px;
+    height: 60px;
+    background-color: #f5f5f5;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 18px 0 0;
+    border: 1px dashed;
+}
+.moverspackers-services ul li:hover .moverspackers-services-text i {
+    color: #343434;
+}
+.moverspackers-services-text h5 {
+    margin: 0 0 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.moverspackers-services ul li:hover .moverspackers-services-text h5,
+.moverspackers-services ul li:hover .moverspackers-services-text p {
+    color: #fff;
+}
+.moverspackers-services-text p {
+    margin: 0;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+.moverspackers-blog,
+.moverspackers-blog-classic figure,
+.moverspackers-blog-classic figure a,
+.moverspackers-blog-classic figure a img,
+.moverspackers-blog-classic-text,
+.moverspackers-blog-classic-wrap {
+    float: left;
+    width: 100%;
+}
+.moverspackers-blog > ul > li {
+    list-style: none;
+    margin: 0 0 30px;
+}
+.moverspackers-blog-classic figure {
+    margin: 0;
+}
+.moverspackers-blog-classic figure > a {
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-blog-classic figure a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.25;
+}
+.moverspackers-blog-classic ul li:hover figure a:before {
+    opacity: 0.6;
+}
+.moverspackers-blog-classic figure a i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    padding: 20px 0 0;
+    margin: -27px 0 0 -27px;
+    opacity: 0;
+}
+.moverspackers-blog-classic ul li:hover figure a i {
+    opacity: 1;
+}
+.moverspackers-blog figure time {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 55px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8px 10px;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+    z-index: 1;
+    text-transform: uppercase;
+}
+.moverspackers-blog ul li:hover figure time {
+    opacity: 0;
+}
+.moverspackers-blog ul li:hover .moverspackers-blog-grid-slide figure time {
+    opacity: 1;
+}
+.moverspackers-blog ul li:hover .moverspackers-blog-large-slide figure time {
+    opacity: 1;
+}
+.moverspackers-blog figure time:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom: 7px solid;
+    border-left: 7px solid transparent;
+}
+.moverspackers-blog-classic-wrap {
+    background-color: #f5f5f5;
+}
+.moverspackers-blog-option {
+    float: left;
+    width: 84%;
+    position: relative;
+    margin: 0;
+    padding: 9px 30px 12px;
+    border-bottom: 3px solid;
+}
+.moverspackers-blog-option:before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    border-top: 50px solid;
+    border-right: 10px solid transparent;
+}
+.moverspackers-blog-option li {
+    float: left;
+    position: relative;
+    margin: 0 31px 0 0;
+    list-style: none;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+.moverspackers-blog-option li:last-child {
+    margin: 0;
+}
+.moverspackers-blog-option li:before {
+    content: "";
+    position: absolute;
+    right: -16px;
+    top: 11px;
+    width: 1px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.moverspackers-blog-option li:last-child:before {
+    content: none;
+}
+.moverspackers-blog-option li a {
+    color: #fff;
+}
+.moverspackers-blog-classic-text {
+    padding: 23px 30px 30px;
+}
+.moverspackers-blog-classic-text h5 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.moverspackers-blog-classic-text p {
+    margin: 0 0 23px;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+.moverspackers-readmore-btn {
+    float: left;
+    font-size: 13px;
+    color: #888;
+    border: 1px solid #ddd;
+    padding: 0 12px;
+}
+.moverspackers-readmore-btn i {
+    float: right;
+    margin: 7px 0 0 4px;
+}
+.moverspackers-blog ul li:hover .moverspackers-readmore-btn {
+    color: #fff;
+}
+.moverspackers-get-quote-form,
+.moverspackers-get-quote-form ul li input[type="text"],
+.moverspackers-get-quote-form ul li input[type="email"],
+.moverspackers-get-quote-form form,
+.moverspackers-get-quote-form ul li textarea {
+    float: left;
+    width: 100%;
+}
+.moverspackers-get-quote-form .moverspackers-fancy-title {
+    text-align: left;
+    margin: 0 0 43px;
+}
+.moverspackers-get-quote-form .moverspackers-fancy-title p {
+    width: 80%;
+    color: #ccc;
+}
+.moverspackers-get-quote-form .moverspackers-fancy-title h2 {
+    color: #fff;
+}
+.moverspackers-get-quote-form ul {
+    margin: 0 -15px;
+}
+.moverspackers-get-quote-form ul li {
+    float: left;
+    width: 33.333%;
+    margin: 0 0 30px;
+    list-style: none;
+    padding: 0 15px;
+}
+.moverspackers-get-quote-form ul li:first-child {
+    float: right;
+}
+.moverspackers-get-quote-form ul li input[type="text"],
+.moverspackers-get-quote-form ul li input[type="email"] {
+    background-color: #3d4151;
+    height: 40px;
+    font-size: 12px;
+    color: #ccc;
+    padding-left: 20px;
+}
+.moverspackers-get-quote-form ul li textarea {
+    background-color: #3d4151;
+    height: 110px;
+    font-size: 12px;
+    color: #ccc;
+    padding-left: 20px;
+}
+.moverspackers-get-quote-form ul li input[type="submit"] {
+    float: left;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-weight: 700;
+    padding: 4px 22px 6px;
+    letter-spacing: 0.7px;
+}
+.moverspackers-get-quote-thumb {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.moverspackers-get-quote-thumb img {
+    position: absolute;
+    right: 0;
+    top: -59px;
+    width: 95%;
+}
+.moverspackers-process-list {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.moverspackers-process-list ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 0 30px;
+    position: relative;
+    padding: 0 68px;
+}
+.moverspackers-process-list ul li:before {
+    content: "\f178";
+    font-family: FontAwesome;
+    position: absolute;
+    right: -12px;
+    top: 50%;
+    font-size: 29px;
+    margin: -37px 0 0;
+}
+.moverspackers-process-list ul li:last-child:before {
+    content: none;
+}
+.moverspackers-process-list ul li span {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border: 2px solid;
+    position: relative;
+    margin: 0 0 23px;
+}
+.moverspackers-process-list ul li span i {
+    display: inline-block;
+    font-size: 50px;
+    padding: 33px 0 0;
+}
+.moverspackers-process-list ul li:hover span i {
+    color: #fff;
+}
+.moverspackers-process-list ul li span small {
+    position: absolute;
+    left: 50%;
+    margin: -23px 0 0 -22px;
+    top: 0;
+    font-weight: 700;
+    width: 45px;
+    height: 45px;
+    border: 6px solid #fff;
+    border-radius: 100%;
+    font-size: 14px;
+    color: #fff;
+    padding: 2px 0 0;
+}
+.moverspackers-process-list ul li:hover span small {
+    opacity: 0;
+}
+.moverspackers-process-list ul li span a {
+    position: absolute;
+    right: -23px;
+    margin: -22px 0 0;
+    top: 50%;
+    font-weight: 700;
+    width: 45px;
+    height: 45px;
+    border: 6px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    padding: 9px 0 0;
+    opacity: 0;
+}
+.moverspackers-process-list ul li:hover span a {
+    opacity: 1;
+}
+.moverspackers-process-list ul li h6 {
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+}
+.moverspackers-team,
+.moverspackers-modern-team figure,
+.moverspackers-modern-team figure a,
+.moverspackers-modern-team figure a img {
+    float: left;
+    width: 100%;
+}
+.moverspackers-team > ul > li {
+    list-style: none;
+    margin: 0 0 30px;
+}
+.moverspackers-modern-team figure {
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.moverspackers-modern-team figure figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px 27px 0;
+    border-bottom: 4px solid;
+    max-height: 82px;
+}
+.moverspackers-modern-team ul li:hover figure figcaption {
+    max-height: 100%;
+    padding: 90px 27px 0;
+}
+.moverspackers-modern-team figure figcaption:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -15px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid;
+    margin: 0 0 0 -14px;
+}
+.moverspackers-modern-team figure figcaption h6 {
+    margin: 0 0 2px;
+    line-height: 0.8;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: 600;
+}
+.moverspackers-modern-team ul li:hover figure figcaption h6 {
+    font-size: 16px;
+}
+.moverspackers-modern-team figure figcaption h6 a,
+.moverspackers-modern-team figure figcaption p,
+.moverspackers-modern-team figure figcaption span {
+    color: #fff;
+}
+.moverspackers-modern-team figure figcaption p {
+    font-weight: 500;
+    margin: 0 0 30px;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+}
+.moverspackers-modern-team figure figcaption span {
+    font-size: 11px;
+    margin: 0 0 30px;
+    font-weight: 500;
+    display: block;
+    line-height: 1;
+    letter-spacing: 0.4px;
+}
+.moverspackers-team-social {
+    display: inline-block;
+    margin: 0;
+}
+.moverspackers-team-social li {
+    display: inline-block;
+    margin: 0 4px 0 0;
+    list-style: none;
+}
+.moverspackers-team-social li a {
+    font-size: 19px;
+    color: #bbb;
+}
+.testimonial-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(images/testimonial-transparnt.png);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.testimonial-transparent:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.moverspackers-testimonial,
+.moverspackers-testimonial-layer {
+    float: left;
+    width: 100%;
+}
+.moverspackers-testimonial {
+    text-align: center;
+    position: relative;
+}
+.moverspackers-testimonial-title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 38px;
+}
+.moverspackers-testimonial-layer figure {
+    margin: 0 0 33px;
+}
+.moverspackers-testimonial-layer img {
+    display: inline-block;
+    border-radius: 100%;
+    width: 70px;
+}
+.moverspackers-testimonial-layer p {
+    margin: 0 0 29px;
+    color: #fff;
+    font-size: 20px;
+    width: 67%;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30px;
+}
+.moverspackers-testimonial-layer h6 {
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 1.1;
+}
+.moverspackers-testimonial-layer span {
+    display: inline-block;
+    font-size: 12px;
+    color: #ccc;
+}
+.moverspackers-testimonial .slick-dots {
+    bottom: -61px;
+}
+.moverspackers-testimonial .slick-dots li {
+    margin: 0 8px 0 7px;
+}
+.moverspackers-testimonial .slick-dots li button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+}
+.moverspackers-services-grid figure,
+.moverspackers-services-grid figure > a,
+.moverspackers-services-grid figure a img {
+    float: left;
+    width: 100%;
+}
+.moverspackers-services-grid figure {
+    margin: 0;
+}
+.moverspackers-services-grid figure > a {
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-services-grid figure > a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.moverspackers-services-grid ul li:hover figure > a:before {
+    opacity: 0.6;
+}
+.moverspackers-services-grid figure figcaption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    margin: -36px 0 0;
+}
+.moverspackers-services-grid ul li:hover figure figcaption {
+    margin: -18px 0 0;
+}
+.moverspackers-services-grid figure figcaption > a {
+    font-size: 36px;
+    display: inline-block;
+    margin: 0 0 20px;
+}
+.moverspackers-services-grid figure figcaption > a.moverspackers-transport {
+    font-size: 44px;
+}
+.moverspackers-services-grid ul li:hover figure figcaption > a {
+    color: #fff;
+}
+.moverspackers-services-grid figure figcaption h5 {
+    color: #fff;
+    margin: 0;
+    font-weight: 700;
+    position: relative;
+}
+.moverspackers-services-grid ul li:hover figure figcaption h5,
+.moverspackers-services-grid ul li:hover figure figcaption h5:before {
+    opacity: 0;
+    visibility: hidden;
+}
+.moverspackers-services-grid figure figcaption h5:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -9px;
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 0 0 -15px;
+}
+.moverspackers-partner-slider {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.moverspackers-partner-slider-layer a {
+    position: relative;
+    display: inline-block;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.moverspackers-partner-slider-layer a:before {
+    content: "";
+    position: absolute;
+    right: -35px;
+    top: 14px;
+    height: 15px;
+    width: 1px;
+    background-color: #bbb;
+}
+.moverspackers-partner-slider .slick-list {
+    width: 99%;
+}
+.moverspackers-partner-slider-layer:last-child a:before {
+    content: none;
+}
+.moverspackers-partner-slider-layer:hover a {
+    filter: none;
+    -webkit-filter: grayscale(0px);
+}
+.moverspackers-partner-slider .slick-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    font-size: 20px;
+    color: #bbb;
+    cursor: pointer;
+    margin: -17px 0 0;
+    z-index: 1;
+}
+.moverspackers-partner-slider .slick-arrow:hover {
+    color: #666;
+}
+.moverspackers-partner-slider .slick-arrow-left.slick-arrow {
+    left: 0;
+    right: auto;
+}
+.moverspackers-twitter-feed {
+    float: left;
+    width: 100%;
+    background-image: url(extra-images/twitter-feed-img.jpg);
+    background-position: top center;
+    position: relative;
+    padding: 34px 0 38px;
+}
+.twitter-slide-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.93;
+}
+.moverspackers-twitter-feed i {
+    float: left;
+    font-size: 90px;
+    color: #fff;
+    margin: 11px 30px 0 0;
+    position: relative;
+}
+.moverspackers-twitter-feed i:after {
+    content: "";
+    position: absolute;
+    right: -29px;
+    top: 10px;
+    width: 1px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.4);
+}
+.moverspackers-twitter-feed i ~ .moverspackers-twitter-slider {
+    padding: 0 0 0 140px;
+}
+.moverspackers-twitter-layer h5 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+.moverspackers-twitter-layer p {
+    margin: 0 0 6px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.moverspackers-twitter-layer p a {
+    font-weight: 700;
+}
+.moverspackers-twitter-layer time {
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 2px 0 0;
+    color: #343434;
+}
+.moverspackers-footer-one {
+    float: left;
+    width: 100%;
+    background-image: url(extra-images/footer-back-img1.jpg);
+    background-position: top center;
+    position: relative;
+}
+.moverspackers-footer-widget .widget {
+    margin: 0 0 70px;
+}
+.moverspackers-footer-widget {
+    float: left;
+    width: 100%;
+    padding: 80px 0 0;
+}
+.footer-widget-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.96;
+}
+.moverspackers-footer-contact,
+.moverspackers-footer-contact-text {
+    float: left;
+    width: 100%;
+}
+.moverspackers-footer-contact {
+    padding: 0 0 50px;
+    position: relative;
+    margin: 0 0 79px;
+    z-index: 1;
+}
+.moverspackers-footer-contact:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.moverspackers-footer-contact ul li {
+    list-style: none;
+    margin: 0 0 30px;
+}
+.moverspackers-footer-contact-text {
+    border: 1px solid #454754;
+    position: relative;
+    padding: 19px 94px 25px 39px;
+}
+.moverspackers-footer-contact-text i {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    font-size: 41px;
+}
+.moverspackers-footer-contact-text h5 {
+    color: #fff;
+    margin: 0 0 7px;
+    font-weight: 700;
+}
+.moverspackers-footer-contact-text p {
+    color: #fff;
+    margin: 0;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+}
+.moverspackers-footer-contact-text p a {
+    color: #fff;
+}
+.moverspackers-footer-title {
+    margin: 0 0 31px;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    line-height: 0.8;
+    font-size: 20px;
+    padding: 0 0 13px;
+}
+.moverspackers-footer-title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 1px;
+}
+.moverspackers-footer-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 20px;
+    height: 1px;
+}
+.widget_about_us p {
+    color: #ccc;
+    margin: 0 0 20px;
+    line-height: 26px;
+}
+.moverspackers-footer-social {
+    float: left;
+    width: 100%;
+}
+.moverspackers-footer-social li {
+    float: left;
+    margin: 0 13px 0 0;
+    list-style: none;
+}
+.moverspackers-footer-social li a {
+    display: inline-block;
+    font-size: 21px;
+    color: #4a5171;
+}
+.moverspackers-footer-social li:hover a {
+    color: #c7c7c7;
+}
+.widget_links ul li {
+    float: left;
+    width: 50%;
+    list-style: none;
+    margin: 0 0 15px;
+    line-height: 1.7;
+}
+.widget_links ul li a {
+    display: inline-block;
+    color: #ccc;
+    font-size: 13px;
+    font-family: raleway, sans-serif;
+    letter-spacing: 0.6px;
+    padding: 0 0 0 23px;
+    position: relative;
+}
+.widget_links ul li:hover a {
+    padding: 0 0 0 26px;
+}
+.widget_links ul li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid #c3c3c4;
+}
+.widget_links ul li:hover a:before {
+    top: 12px;
+    border-radius: 0;
+    border: none;
+    height: 1px;
+    width: 11px;
+}
+.widget_newsletter form,
+.widget_newsletter form input[type="email"] {
+    float: left;
+    width: 100%;
+}
+.widget_newsletter p {
+    color: #ccc;
+    margin: 0 0 23px;
+    line-height: 26px;
+}
+.widget_newsletter form input[type="email"] {
+    background-color: #3d4151;
+    font-size: 10px;
+    color: #ccc;
+    height: 40px;
+    padding-left: 15px;
+    font-style: italic;
+    letter-spacing: 0.6px;
+    margin: 0 0 30px;
+}
+.widget_newsletter form input[type="submit"] {
+    float: left;
+    border: 1px solid #fff;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    padding: 8px 30px 10px;
+    letter-spacing: 0.6px;
+}
+.moverspackers-footer-copyright {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 23px 0 20px;
+}
+.moverspackers-footer-copyright:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.moverspackers-footer-copyright p {
+    margin: 0;
+    float: left;
+    color: #ccc;
+}
+.moverspackers-footer-copyright p a {
+    color: #ccc;
+}
+.moverspackers-footer-copyright ul {
+    float: right;
+}
+.moverspackers-footer-copyright ul li {
+    float: left;
+    margin: 0 0 0 45px;
+    list-style: none;
+    position: relative;
+}
+.moverspackers-footer-copyright ul li:before {
+    content: "";
+    position: absolute;
+    right: -23px;
+    top: 11px;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+.moverspackers-footer-copyright ul li:last-child:before {
+    content: none;
+}
+.moverspackers-footer-copyright ul li:first-child {
+    margin: 0;
+}
+.moverspackers-footer-copyright ul li a {
+    color: #ccc;
+}
+.moverspackers-subheader {
+    float: left;
+    width: 100%;
+    background-image: url(extra-images/subheader-image.jpg);
+    background-position: top center;
+    position: relative;
+    padding: 72px 0 76px;
+}
+.moverspackers-dark-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.moverspackers-subheader h1 {
+    font-size: 26px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: raleway, sans-serif;
+    color: #fff;
+}
+.moverspackers-breadcrumb {
+    float: left;
+    width: 100%;
+}
+.moverspackers-breadcrumb li {
+    float: left;
+    list-style: none;
+    color: #fff;
+    padding: 0 10px;
+    position: relative;
+    letter-spacing: 0.6px;
+}
+.moverspackers-breadcrumb li:first-child {
+    padding-left: 0;
+}
+.moverspackers-breadcrumb li:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 2px;
+    height: 10px;
+    background-color: #fff;
+}
+.moverspackers-breadcrumb li:last-child:before {
+    content: none;
+}
+.moverspackers-breadcrumb li a {
+    color: #fff;
+}
+.moverspackers-rich-editor,
+.moverspackers-blog-thumb,
+.moverspackers-thumb-heading {
+    float: left;
+    width: 100%;
+}
+.moverspackers-blog-thumb {
+    margin: 0;
+}
+.moverspackers-blog-thumb time {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 55px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8px 10px;
+    text-align: center;
+    line-height: 18px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid;
+}
+.moverspackers-blog-thumb time:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom: 7px solid;
+    border-left: 7px solid transparent;
+}
+.moverspackers-thumb-heading {
+    border-bottom: 3px solid;
+    padding: 18px 10px 17px 28px;
+    margin: 0 0 32px;
+}
+.moverspackers-thumb-heading h2 {
+    margin: 0 0 3px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.moverspackers-thumb-heading .moverspackers-blog-option {
+    padding: 0;
+    border-bottom: none;
+    width: 100%;
+}
+.moverspackers-thumb-heading .moverspackers-blog-option:before {
+    content: none;
+}
+.moverspackers-rich-editor {
+    margin: 0 0 33px;
+}
+.moverspackers-rich-editor p {
+    margin: 0 0 24px;
+    line-height: 26px;
+    letter-spacing: 0.9px;
+}
+blockquote {
+    float: left;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    font-size: 17px;
+    font-style: italic;
+    padding: 22px 30px 27px 69px;
+    line-height: 1.5;
+    margin: 8px 0 31px;
+    letter-spacing: 1.3px;
+}
+blockquote:before {
+    content: "\e918";
+    font-family: icomoon;
+    position: absolute;
+    left: 6px;
+    top: -11px;
+    font-size: 50px;
+    font-style: normal;
+    opacity: 0.1;
+}
+blockquote span {
+    float: right;
+    margin: 20px 0 0;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.7px;
+}
+.moverspackers-post-tags {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ececec;
+    padding: 0 0 25px;
+    margin: 0 0 69px;
+}
+.moverspackers-tags {
+    float: left;
+    width: 50%;
+}
+.moverspackers-tags span {
+    float: left;
+    font-size: 16px;
+    color: #222;
+    margin: 0 20px 0 0;
+    font-family: roboto, sans-serif;
+}
+.moverspackers-tags a {
+    float: left;
+    margin: 1px 8px 0 0;
+    border: 1px solid #ececec;
+    font-size: 12px;
+    padding: 2px 10px 4px;
+}
+.moverspackers-tags a:hover {
+    color: #fff;
+}
+.moverspackers-blog-social {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.moverspackers-blog-social span {
+    font-size: 16px;
+    color: #222;
+    margin: 0 20px 0 0;
+    font-family: roboto, sans-serif;
+}
+.moverspackers-blog-social ul {
+    float: right;
+}
+.moverspackers-blog-social ul li {
+    float: left;
+    list-style: none;
+    margin: 0 0 0 10px;
+}
+.moverspackers-blog-social ul li:first-child {
+    margin: 0;
+}
+.moverspackers-blog-social ul li a {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 0 0;
+    color: #fff;
+}
+.moverspackers-blog-social ul li a.fa-facebook {
+    background-color: #3b5998;
+}
+.moverspackers-blog-social ul li a.fa-twitter {
+    background-color: #019ad2;
+}
+.moverspackers-blog-social ul li a.fa-google-plus {
+    background-color: #cb2027;
+}
+.moverspackers-blog-social ul li a.fa-linkedin {
+    background-color: #007bb6;
+}
+.moverspackers-prenxt-post,
+.moverspackers-prev-post,
+.moverspackers-prenxt-post figure a {
+    float: left;
+    width: 100%;
+}
+.moverspackers-prenxt-post {
+    margin: 0 0 70px;
+}
+.moverspackers-prenxt-post ul {
+    margin: 0 -30px;
+}
+.moverspackers-prenxt-post ul li {
+    float: left;
+    list-style: none;
+    width: 50%;
+    padding: 0 30px;
+    position: relative;
+}
+.moverspackers-prenxt-post ul li:last-child:before {
+    content: none;
+}
+.moverspackers-prenxt-post ul li:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 1px;
+    height: 40px;
+    background-color: #ececec;
+}
+.moverspackers-prenxt-post figure {
+    float: left;
+    width: 50px;
+    margin: 1px 0 0;
+}
+.moverspackers-next-post figure {
+    float: right;
+}
+.moverspackers-prenxt-post figure a {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.moverspackers-prenxt-post figure a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.moverspackers-prenxt-post ul li:hover figure a:before {
+    opacity: 0.7;
+}
+.moverspackers-prenxt-post figure a i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    font-size: 16px;
+    margin: -9px 0 0 -3px;
+    opacity: 0;
+}
+.moverspackers-prenxt-post ul li:hover figure a i {
+    opacity: 1;
+}
+.moverspackers-prev-post figure img {
+    border-radius: 100%;
+}
+.moverspackers-prev-post figure ~ h6 {
+    padding: 0 0 0 142px;
+}
+.moverspackers-prev-post h6,
+.moverspackers-next-post h6 {
+    text-align: right;
+    margin: 0;
+    letter-spacing: 0.9px;
+}
+.moverspackers-next-post figure ~ h6 {
+    padding: 0 116px 0 0;
+}
+.moverspackers-next-post h6 {
+    text-align: left;
+}
+.moverspackers-blog-modern figure,
+.moverspackers-blog-modern figure > a,
+.moverspackers-blog-modern figure a img {
+    float: left;
+    width: 100%;
+}
+.moverspackers-blog-modern figure {
+    margin: 0;
+    overflow: hidden;
+}
+.moverspackers-blog-modern figure > a {
+    position: relative;
+}
+.moverspackers-blog-modern figure > a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.moverspackers-blog-modern ul li:hover figure > a:before {
+    background: rgba(39, 43, 61, 0.9);
+}
+.moverspackers-blog-modern figure figcaption {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0 30px 32px;
+    max-height: 75px;
+}
+.moverspackers-blog-modern ul li:hover figure figcaption {
+    max-height: 100%;
+}
+.moverspackers-blog-modern figure figcaption h5 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.moverspackers-blog-modern figure figcaption h5 a {
+    color: #fff;
+}
+.moverspackers-related-option {
+    float: left;
+    margin: 0 0 13px;
+    width: 100%;
+}
+.moverspackers-blog-modern ul li:hover .moverspackers-related-option {
+    margin: 0 0 8px;
+}
+.moverspackers-related-option li {
+    float: left;
+    list-style: none;
+    margin: 0 15px 0 0;
+}
+.moverspackers-related-option li:last-child {
+    margin: 0;
+}
+.moverspackers-related-option li a {
+    color: #fff;
+    font-size: 12px;
+}
+.moverspackers-related-option li a i {
+    margin: 0 6px 0 0;
+}
+.moverspackers-blog-modern figure figcaption p {
+    color: #fff;
+    margin: 0 0 13px;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+.moverspackers-modern-btn {
+    float: left;
+    color: #fff;
+    font-weight: 700;
+}
+.moverspackers-modern-btn i {
+    margin: 0 0 0 2px;
+}
+.moverspackers-section-heading {
+    float: left;
+    width: 100%;
+    margin: 0 0 40px;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    line-height: 0.8;
+    font-size: 20px;
+    padding: 0 0 13px;
+}
+.moverspackers-section-heading:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 1px;
+}
+.moverspackers-section-heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 20px;
+    height: 1px;
+}
+.comments-area,
+.comment-list,
+.comment-list li,
+.comment-list li figure a img,
+.comment-list > ul > li,
+.comment-list .thumblist,
+.comment-list li img,
+.thumb-list {
+    float: left;
+    width: 100%;
+}
+.thumb-list {
+    margin-bottom: 30px;
+}
+.comment-list .children {
+    margin: 0;
+    padding: 0 0 0 98px;
+}
+.comment-list > ul > li {
+    margin: 0;
+    list-style: none;
+}
+.comment-list .thumblist > ul {
+    margin: 0;
+}
+.comment-list li {
+    list-style: none;
+}
+.comment-list li figure {
+    float: left;
+    margin: 0;
+    width: 70px;
+    text-align: center;
+}
+.comment-list li figure img {
+    border-radius: 100%;
+}
+.comment-list > li .thumb-list {
+    background-color: #f5f5f5;
+    padding: 30px 37px 22px 30px;
+}
+.comment-list figure ~ .text-holder {
+    margin-left: 80px;
+    position: relative;
+    padding: 0 0 18px 30px;
+    line-height: 1;
+}
+.text-holder p {
+    margin-bottom: 9px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+    line-height: 26px;
+}
+.text-holder h6 {
+    line-height: 1.1;
+    margin: -2px 0 2px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+.text-holder .post-date {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 1;
+    margin: 0 0 12px;
+    font-weight: 700;
+}
+.comment-reply-link {
+    float: left;
+    margin: 0 20px 0 0;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative;
+}
+.comment-reply-link:before {
+    content: "";
+    position: absolute;
+    right: -11px;
+    bottom: 3px;
+    width: 2px;
+    height: 2px;
+    background-color: #666;
+}
+.comment-reply-link:last-child:before {
+    content: none;
+}
+.comment-reply-link i {
+    font-size: 9px;
+    margin: 0 0 0 3px;
+}
+.comment-list {
+    margin: 0 0 37px;
+}
+.comment-respond,
+.moverspackers-full-form textarea {
+    float: left;
+    width: 100%;
+}
+.comments-area {
+    margin-top: 39px;
+}
+.comment-respond {
+    margin: 0 0 10px;
+}
+.comment-respond form {
+    margin: 0 -15px;
+}
+.comment-respond form p {
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    width: 50%;
+}
+.comment-respond form p label {
+    float: left;
+    margin: 0 0 10px;
+    line-height: 0.7;
+    font-weight: 500;
+    font-family: roboto, sans-serif;
+}
+.comment-respond form p input[type="text"],
+.comment-respond form p input[type="email"] {
+    background-color: #f5f5f5;
+    color: #999;
+    font-size: 12px;
+    float: left;
+    height: 50px;
+    margin: 0;
+    padding-left: 15px;
+    width: 100%;
+}
+.comment-respond form > .moverspackers-full-form {
+    float: right;
+}
+.moverspackers-full-form textarea {
+    height: 252px;
+    color: #3c3c3c;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 16px;
+    background-color: #f5f5f5;
+}
+.comment-respond form p input[type="submit"] {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 6px 22px 8px;
+    color: #999;
+    font-weight: 700;
+    position: relative;
+    letter-spacing: 1px;
+    background-color: transparent;
+}
+.comment-respond form p input[type="submit"]:hover {
+    color: #fff;
+}
+.moverspackers-main-content .widget {
+    float: left;
+    width: 100%;
+    margin: 0 0 50px;
+}
+.moverspackers-widget-heading {
+    float: left;
+    width: 100%;
+    margin: 0 0 30px;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    line-height: 0.7;
+    font-size: 20px;
+    padding: 0 0 13px;
+}
+.moverspackers-widget-heading:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 1px;
+}
+.moverspackers-widget-heading:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 20px;
+    height: 1px;
+}
+.widget_search form,
+.widget_search form input[type="text"] {
+    float: left;
+    width: 100%;
+}
+.widget_search form {
+    position: relative;
+}
+.widget_search form input[type="text"] {
+    background-color: #f5f5f5;
+    height: 40px;
+    padding-left: 20px;
+    color: #999;
+    letter-spacing: 0.6px;
+}
+.widget_search form label {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+.widget_search form label:before {
+    content: "\f002";
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    font-family: FontAwesome;
+    color: #fff;
+    cursor: pointer;
+}
+.widget_search form input[type="submit"] {
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+}
+.widget-popular-post-wrap,
+.widget_popular_post ul li,
+.widget_popular_post figure a,
+.widget_popular_post figure a img {
+    float: left;
+    width: 100%;
+}
+.widget-popular-post-wrap {
+    border: 1px solid #f5f5f5;
+    padding: 19px 26px 27px 19px;
+}
+.widget_popular_post ul li {
+    list-style: none;
+    margin: 0 0 28px;
+}
+.widget_popular_post ul li:last-child {
+    margin: 0;
+}
+.widget_popular_post figure {
+    float: left;
+    width: 50px;
+    margin: 0;
+}
+.widget_popular_post figure a {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.widget_popular_post figure a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.widget_popular_post ul li:hover figure a:before {
+    opacity: 0.8;
+}
+.widget_popular_post figure a i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -7px 0 0 -4px;
+    opacity: 0;
+}
+.widget_popular_post ul li:hover figure a i {
+    opacity: 1;
+}
+.widget_popular_post figure ~ .widget-popular-post-text {
+    padding-left: 61px;
+}
+.widget-popular-post-text h6 {
+    margin: 0 0 8px;
+    line-height: 20px;
+    letter-spacing: 0.9px;
+}
+.widget-popular-post-text time {
+    font-size: 12px;
+    float: left;
+    line-height: 1;
+    letter-spacing: 0.7px;
+}
+.widget_cetagories ul li,
+.widget_cetagories_wrap {
+    float: left;
+    width: 100%;
+}
+.widget_cetagories_wrap {
+    border: 1px solid #f5f5f5;
+    padding: 30px 15px 23px;
+}
+.widget_cetagories ul li {
+    list-style: none;
+    margin: 0 0 15px;
+}
+.widget_cetagories ul li:last-child {
+    margin: 0;
+}
+.widget_cetagories ul li a {
+    display: block;
+    background-color: #f5f5f5;
+    padding: 9px 0 8px 43px;
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.8px;
+    position: relative;
+}
+.widget_cetagories ul li:hover a {
+    color: #fff;
+}
+.widget_cetagories ul li a:before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 19px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: 1px solid #c3c3c4;
+}
+.widget_cetagories ul li:hover a:before {
+    top: 22px;
+    border-radius: 0;
+    border: none;
+    height: 2px;
+    width: 11px;
+    background-color: #fff;
+}
+.widget_meta ul li a span {
+    position: relative;
+}
+.widget_meta ul li a span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px dotted #666;
+    width: 100%;
+    height: 1px;
+}
+.widget_meta ul li:hover a span:before,
+.widget_meta ul li:hover a span:after {
+    border-bottom-color: #fff;
+}
+.widget_meta ul li a span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    border-bottom: 1px dotted #666;
+    width: 100%;
+    height: 1px;
+}
+.widget_instagram figure,
+.widget_instagram figure a,
+.widget_instagram figure a img {
+    float: left;
+    width: 100%;
+}
+.widget_instagram ul {
+    margin: 0 -10px 0 0;
+}
+.widget_instagram ul li {
+    float: left;
+    list-style: none;
+    width: 33.333%;
+    margin: 0 0 10px;
+    padding: 0 10px 0 0;
+}
+.widget_instagram figure a {
+    position: relative;
+    overflow: hidden;
+}
+.widget_instagram figure a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    opacity: 0;
+}
+.widget_instagram ul li:hover figure a:before {
+    opacity: 0.8;
+    width: 100%;
+}
+.widget_instagram figure a i {
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+    top: 50%;
+    margin: -7px 0 0 -5px;
+}
+.widget_instagram ul li:hover figure a i {
+    left: 50%;
+    opacity: 1;
+}
+.moverspackers-blog-grid figure,
+.moverspackers-blog-grid figure a,
+.moverspackers-blog-grid figure a img,
+.moverspackers-blog-grid-text,
+.moverspackers-blog-grid-slide {
+    float: left;
+    width: 100%;
+}
+.moverspackers-blog-grid figure {
+    margin: 0;
+}
+.moverspackers-blog-grid figure span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    z-index: 1;
+    font-size: 50px;
+    margin: -28px 0 0 -24px;
+}
+.moverspackers-blog-grid ul li:hover figure span {
+    opacity: 0;
+    visibility: hidden;
+}
+.moverspackers-blog-grid figure a {
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-blog-grid figure a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.moverspackers-blog-grid ul li.video figure a:before {
+    opacity: 0.6;
+}
+.moverspackers-blog-grid ul li:hover figure a:before {
+    opacity: 0.6;
+}
+.moverspackers-blog-grid .moverspackers-blog-grid-slide figure a:before {
+    content: none;
+}
+.moverspackers-blog-large .moverspackers-blog-large-slide figure a:before {
+    content: none;
+}
+.moverspackers-blog-grid figure a i {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    padding: 20px 0 0;
+    margin: -27px 0 0 -27px;
+    opacity: 0;
+}
+.moverspackers-blog-grid ul li:hover figure a i {
+    opacity: 1;
+    top: 50%;
+}
+.moverspackers-blog-grid-text {
+    border: 1px solid #ececec;
+    padding: 26px 18px 30px 30px;
+    border-top: none;
+}
+.moverspackers-blog-grid-text h5 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.moverspackers-blog-grid-text p {
+    margin: 0 0 22px;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+.moverspackers-blog-grid .moverspackers-blog-option {
+    width: 100%;
+    padding: 0;
+    border-bottom: none;
+    margin: 0 0 12px;
+}
+.moverspackers-blog-grid .moverspackers-blog-option:before {
+    content: none;
+}
+.moverspackers-blog-grid .moverspackers-blog-option li {
+    margin: 0 29px 0 0;
+}
+.moverspackers-blog-grid .moverspackers-blog-option li:last-child {
+    margin: 0;
+}
+.moverspackers-blog-grid .moverspackers-blog-option li a {
+    color: #999;
+    font-size: 10px;
+}
+.moverspackers-blog-grid .moverspackers-blog-option li i {
+    margin: 0 8px 0 0;
+    color: #999;
+    font-size: 10px;
+}
+.moverspackers-blog-grid .moverspackers-blog-option li:before {
+    right: -14px;
+    background-color: #aaa;
+    top: 10px;
+}
+.moverspackers-blog-grid .moverspackers-readmore-btn {
+    padding: 3px 17px 2px;
+}
+.moverspackers-blog-grid-slide {
+    position: relative;
+}
+.moverspackers-blog-grid .slick-arrow {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    line-height: 1.7;
+    margin: -12px 0 0;
+}
+.moverspackers-blog-grid .slick-arrow-left.slick-arrow {
+    right: auto;
+    left: 15px;
+}
+.moverspackers-pagination,
+.moverspackers-pagination > ul {
+    float: left;
+    width: 100%;
+}
+.moverspackers-pagination {
+    margin: 50px 0 36px;
+    text-align: center;
+}
+.moverspackers-pagination > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px 0 0;
+}
+.moverspackers-pagination > ul > li > .previous,
+.moverspackers-pagination > ul > li > .next {
+    border: 1px solid #e0e0e0;
+    line-height: 1.5;
+}
+.moverspackers-pagination > ul > li:hover > .previous,
+.moverspackers-pagination > ul > li:hover > .next {
+    color: #fff;
+}
+.moverspackers-pagination > ul > li > a,
+.moverspackers-pagination > ul > li > span {
+    border: 1px solid #e0e0e0;
+    color: #bbb;
+    font-size: 12px;
+    float: left;
+    height: 35px;
+    line-height: 1.4;
+    padding: 8px;
+    width: 35px;
+}
+.moverspackers-blog-large figure,
+.moverspackers-blog-large figure a,
+.moverspackers-blog-large figure a img,
+.moverspackers-blog-large-text,
+.moverspackers-blog-large-slide {
+    float: left;
+    width: 100%;
+}
+.moverspackers-blog-large figure {
+    margin: 0 0 30px;
+}
+.moverspackers-blog.moverspackers-blog-large figure time {
+    top: 20px;
+    left: 20px;
+}
+.moverspackers-blog-large figure span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: #fff;
+    z-index: 1;
+    font-size: 60px;
+    margin: -28px 0 0 -24px;
+}
+.moverspackers-blog-large ul li:hover figure span {
+    opacity: 0;
+    visibility: hidden;
+}
+.moverspackers-blog-large figure a {
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-blog-large figure a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.moverspackers-blog-large ul li.video figure a:before {
+    opacity: 0.6;
+}
+.moverspackers-blog-large ul li:hover figure a:before {
+    opacity: 0.6;
+}
+.moverspackers-blog-large figure a i {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    padding: 20px 0 0;
+    margin: -27px 0 0 -27px;
+    opacity: 0;
+}
+.moverspackers-blog-large ul li:hover figure a i {
+    opacity: 1;
+    top: 50%;
+}
+.moverspackers-blog-large-text {
+    border: 1px solid #ececec;
+    padding: 26px 18px 30px 30px;
+}
+.moverspackers-blog-large-text h5 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.moverspackers-blog-large-text p {
+    margin: 0 0 23px;
+    line-height: 26px;
+    letter-spacing: 0.8px;
+}
+.moverspackers-blog-large .moverspackers-blog-option {
+    width: 100%;
+    padding: 0;
+    border-bottom: none;
+    margin: 0 0 12px;
+}
+.moverspackers-blog-large .moverspackers-blog-option:before {
+    content: none;
+}
+.moverspackers-blog-large .moverspackers-blog-option li {
+    margin: 0 29px 0 0;
+    font-weight: 700;
+}
+.moverspackers-blog-large .moverspackers-blog-option li a {
+    color: #999;
+    margin: 0 0 0 7px;
+    font-weight: 400;
+}
+.moverspackers-blog-large .moverspackers-blog-option li:before {
+    right: -14px;
+    background-color: #aaa;
+    top: 10px;
+}
+.moverspackers-blog-large .moverspackers-readmore-btn {
+    padding: 5px 22px;
+}
+.moverspackers-blog-large-slide {
+    position: relative;
+}
+.moverspackers-blog-large .slick-arrow {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+    line-height: 1.7;
+    margin: -12px 0 0;
+}
+.moverspackers-blog-large .slick-arrow-left.slick-arrow {
+    right: auto;
+    left: 15px;
+}
+.moverspackers-team-detail,
+.moverspackers-team-thumb,
+.moverspackers-team-thumb-text,
+.moverspackers-liststyle-one li,
+.moverspackers-team-social-network,
+.moverspackers-liststyle-one,
+.moverspackers-work-experience,
+.moverspackers-work-experience ul li {
+    float: left;
+    width: 100%;
+}
+.moverspackers-team-detail {
+    margin: 0 0 35px;
+}
+.moverspackers-team-thumb-text {
+    padding: 24px 0 0;
+}
+.moverspackers-team-thumb-text h5 {
+    margin: 0 0 3px;
+    font-weight: 700;
+    line-height: 1;
+}
+.moverspackers-team-thumb-text span {
+    font-size: 12px;
+    display: block;
+    letter-spacing: 0.8px;
+    margin: 0 0 17px;
+}
+.moverspackers-team-thumb-text p {
+    margin: 0 0 13px;
+    line-height: 26px;
+}
+.moverspackers-liststyle-one {
+    margin: 0 0 11px;
+}
+.moverspackers-liststyle-one li {
+    list-style: none;
+    margin: 0 0 7px;
+    padding-left: 25px;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: 1px;
+    position: relative;
+}
+.moverspackers-liststyle-one li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #222;
+    border-radius: 100%;
+}
+.moverspackers-team-social-network li {
+    float: left;
+    margin: 0 10px 0 0;
+    list-style: none;
+}
+.moverspackers-team-social-network li a {
+    font-size: 18px;
+}
+.moverspackers-team-social-network li a.moverspackers-social {
+    color: #3b5998;
+}
+.moverspackers-team-social-network li a.moverspackers-square {
+    color: #019ad2;
+}
+.moverspackers-team-social-network li a.moverspackers-social-network {
+    color: #cb2027;
+}
+.moverspackers-team-social-network li a.moverspackers-travel {
+    color: #cb2027;
+}
+.moverspackers-work-experience ul li {
+    list-style: none;
+    padding: 0 0 24px;
+    position: relative;
+}
+.moverspackers-work-experience {
+    margin: 4px 0 64px;
+}
+.moverspackers-work-experience ul li:last-child {
+    padding: 0;
+}
+.moverspackers-work-experience ul li:last-child:before {
+    content: none;
+}
+.moverspackers-work-experience ul li:before {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #ececec;
+}
+.moverspackers-work-experience ul li i {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    color: #bbb;
+    font-size: 25px;
+    padding: 12px 0 0;
+    background-color: #f5f5f5;
+    border: 1px dashed #fff;
+    position: relative;
+}
+.moverspackers-work-experience ul li:hover i {
+    color: #fff;
+}
+.moverspackers-work-experience ul li i ~ .moverspackers-experience-text {
+    padding: 13px 0 0 80px;
+}
+.moverspackers-experience-text h6 {
+    margin: 0 0 16px;
+    font-weight: 700;
+}
+.moverspackers-experience-text p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+.moverspackers-realted-team {
+    margin: 0 0 39px;
+}
+.moverspackers-team-list figure,
+.moverspackers-team-list figure > a,
+.moverspackers-team-list figure a img {
+    float: left;
+    width: 100%;
+}
+.moverspackers-team-list figure {
+    margin: 0;
+    overflow: hidden;
+}
+.moverspackers-team-list figure > a {
+    position: relative;
+}
+.moverspackers-team-list figure > a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.moverspackers-team-list figure figcaption {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 1;
+    height: 100%;
+    padding: 59px 29px 55px;
+}
+.moverspackers-team-list .moverspackers-team-social li {
+    margin: 0 8px 0 0;
+}
+.moverspackers-team-list figure figcaption h5 {
+    font-weight: 700;
+    margin: 0 0 3px;
+    line-height: 1;
+    letter-spacing: 0.9px;
+}
+.moverspackers-team-list figure figcaption h5 a {
+    color: #fff;
+}
+.moverspackers-team-list figure figcaption span {
+    color: #bbb;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    margin: 0 0 22px;
+}
+.moverspackers-team-list figure figcaption p {
+    margin: 0 0 21px;
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+}
+.moverspackers-rich-editor .moverspackers-section-heading {
+    margin: 0 0 31px;
+}
+.moverspackers-project-detail {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 0 0 38px;
+}
+.moverspackers-project-thumb {
+    float: left;
+    width: 75%;
+    margin: 0;
+}
+.moverspackers-project-info {
+    position: absolute;
+    right: 0;
+    top: 33px;
+    width: 260px;
+    padding: 40px 0 23px 30px;
+}
+.moverspackers-project-info .moverspackers-section-heading {
+    font-size: 18px;
+    margin: 0 0 22px;
+    color: #fff;
+}
+.moverspackers-project-info ul,
+.moverspackers-project-info ul li {
+    float: left;
+    width: 100%;
+}
+.moverspackers-project-info ul li {
+    list-style: none;
+    margin: 0 0 10px;
+}
+.moverspackers-project-info h6 {
+    margin: 2px 12px 0 0;
+    font-weight: 500;
+    color: #fff;
+    float: left;
+}
+.moverspackers-project-info span {
+    color: #fff;
+    font-size: 12px;
+    float: left;
+}
+.moverspackers-project-achievements {
+    float: left;
+    width: 100%;
+}
+.moverspackers-project-achievements .moverspackers-section-heading {
+    margin: 0 0 31px;
+}
+.moverspackers-project-achievements p {
+    display: block;
+    margin: 0 0 14px;
+    letter-spacing: 1.2px;
+    line-height: 26px;
+}
+.skillst span,
+.skillst small {
+    float: left;
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 6px;
+    letter-spacing: 0.7px;
+}
+.skillst small {
+    float: right;
+    font-size: 14px;
+}
+.skillst {
+    float: left;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.bar-container {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.bar-container .bar {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bar-container .bar small {
+    display: none;
+}
+.moverspackers-project,
+.moverspackers-project-grid figure,
+.moverspackers-project-grid figure > a,
+.moverspackers-project-grid figure a img,
+.moverspackers-project-grid-wrap {
+    float: left;
+    width: 100%;
+}
+.moverspackers-project > ul > li {
+    list-style: none;
+    margin: 0 0 30px;
+}
+.moverspackers-project-grid figure {
+    margin: 0;
+    overflow: hidden;
+}
+.moverspackers-project-grid figure > a {
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-project-grid figure > a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.moverspackers-project-grid ul li:hover figure > a:before {
+    opacity: 1;
+}
+.moverspackers-project-grid figure figcaption {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.moverspackers-project-grid-wrap {
+    border: 1px dashed #fff;
+    height: 100%;
+    line-height: 1;
+}
+.moverspackers-project-grid-text {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    margin: -17px 0 0;
+    padding: 0 40px;
+}
+.moverspackers-project-grid ul li:hover .moverspackers-project-grid-text {
+    margin: -81px 0 0;
+}
+.moverspackers-project-grid-text h5 {
+    margin: 0 0 1px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.moverspackers-project-grid-text h5 > a {
+    color: #fff;
+}
+.moverspackers-project-grid-text span {
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    margin: 0 0 20px;
+}
+.moverspackers-project-grid-text p {
+    margin: 0 0 20px;
+    color: #fff;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    opacity: 0;
+}
+.moverspackers-project-grid ul li:hover .moverspackers-project-grid-text p,
+.moverspackers-project-grid ul li:hover .moverspackers-project-grid-text > a {
+    opacity: 1;
+}
+.moverspackers-project-grid-text > a {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0;
+}
+.moverspackers-project-grid-text > a i {
+    font-size: 14px;
+    margin: 0 0 0 5px;
+}
+.moverspackers-project-filterable {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 50px;
+}
+.moverspackers-project-filterable ul {
+    display: inline-block;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.moverspackers-project-filterable ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 41px;
+}
+.moverspackers-project-filterable ul li:first-child {
+    margin-left: 0;
+}
+.moverspackers-project-filterable ul li:last-child {
+    margin-right: 0;
+}
+.moverspackers-project-filterable ul li a {
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    padding: 11px 0 10px;
+    position: relative;
+    font-family: roboto, sans-serif;
+}
+.moverspackers-project-filterable ul li:first-child a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.moverspackers-project-filterable ul li a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 0;
+    height: 2px;
+}
+.moverspackers-project-filterable ul li a.is-checked:before,
+.moverspackers-project-filterable ul li a.is-checked:after {
+    width: 45px;
+}
+.moverspackers-project-filterable ul li a:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    width: 0;
+    height: 2px;
+}
+.moverspackers-project-list figure a,
+.moverspackers-project-list figure a img,
+.moverspackers-project-list-wrap {
+    float: left;
+    width: 100%;
+}
+.moverspackers-project-list figure {
+    float: left;
+    width: 233px;
+    margin: 0;
+}
+.moverspackers-project-list figure a {
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-project-list figure a:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+}
+.moverspackers-project-list ul li:hover figure a:before {
+    width: 100%;
+    opacity: 0.8;
+}
+.moverspackers-project-list figure a i {
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+    top: 50%;
+    color: #fff;
+    font-size: 36px;
+    margin: -18px 0 0 -17px;
+}
+.moverspackers-project-list ul li:hover figure a i {
+    opacity: 1;
+    left: 50%;
+}
+.moverspackers-project-list-wrap {
+    padding: 30px 17px 30px 30px;
+    background-color: #f5f5f5;
+}
+.moverspackers-project-list figure ~ .moverspackers-project-list-text {
+    margin: 0 0 0 233px;
+}
+.moverspackers-project-list-text {
+    padding: 11px 0 0 30px;
+    line-height: 1;
+}
+.moverspackers-project-list-text h5 {
+    margin: 0 0 8px;
+    font-weight: 600;
+    line-height: 1;
+}
+.moverspackers-project-list-text span {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    margin: 0 0 20px;
+}
+.moverspackers-project-list-text p {
+    line-height: 26px;
+    margin: 0 0 23px;
+    letter-spacing: 0.8px;
+}
+.moverspackers-project-list-text .moverspackers-readmore-btn {
+    padding: 7px 12px 8px;
+}
+.moverspackers-project-list ul li:hover .moverspackers-readmore-btn {
+    color: #fff;
+}
+.moverspackers-services-classic i {
+    float: left;
+    font-size: 64px;
+}
+.moverspackers-services-classic i ~ .moverspackers-services-classic-text {
+    padding: 0 0 0 85px;
+}
+.moverspackers-services-classic-text h5 {
+    margin: 0 0 5px;
+    font-weight: 700;
+}
+.moverspackers-services-classic-text p {
+    margin: 0;
+}
+.moverspackers-priceplan,
+.moverspackers-priceplan-wrap,
+.moverspackers-priceplan-heading,
+.moverspackers-priceplan-list,
+.moverspackers-priceplan-list ul,
+.moverspackers-priceplan-list ul li {
+    float: left;
+    width: 100%;
+}
+.moverspackers-priceplan > ul > li {
+    list-style: none;
+    margin: 0 0 40px;
+}
+.moverspackers-priceplan-wrap {
+    position: relative;
+    text-align: center;
+    background-color: #2a2e41;
+}
+.moverspackers-priceplan ul li:hover .moverspackers-priceplan-wrap {
+    background-color: #f9ad17;
+    margin: -20px 0 0;
+    box-shadow: 7px 6px 8px #c9c9c9;
+}
+.moverspackers-priceplan-wrap:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 400px solid;
+    border-right: 358px solid transparent;
+}
+.moverspackers-priceplan-heading {
+    position: relative;
+}
+.moverspackers-priceplan-heading h5 {
+    margin: 0;
+    font-weight: 700;
+    padding: 12px 0 11px;
+    position: relative;
+}
+.moverspackers-priceplan-heading h5:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom: 50px solid #2a2e41;
+    border-left: 47px solid transparent;
+}
+.moverspackers-priceplan ul li:hover .moverspackers-priceplan-heading h5:before {
+    border-bottom-color: #f9ad17;
+}
+.moverspackers-priceplan-heading h2 {
+    display: inline-block;
+    margin: 0 0 0 70px;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 600;
+}
+.moverspackers-priceplan-heading h2 small {
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 29px 0 0;
+}
+.moverspackers-priceplan-heading h2 span {
+    font-size: 16px;
+    display: inline-block;
+}
+.moverspackers-priceplan-list {
+    padding: 0 60px 50px;
+    position: relative;
+}
+.moverspackers-priceplan-list ul {
+    margin: 0 0 30px;
+}
+.moverspackers-priceplan-list ul li {
+    list-style: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #404354;
+    font-size: 16px;
+    color: #ccc;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+}
+.moverspackers-priceplan ul li:hover .moverspackers-priceplan-list ul li {
+    color: #fff;
+    border-bottom-color: #fff;
+}
+.moverspackers-price-btn {
+    display: inline-block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px 15px 6px;
+    letter-spacing: 0.7px;
+}
+.moverspackers-aboutus-padding {
+    padding-top: 0;
+}
+.moverspackers-aboutus-thumb {
+    padding: 76px 0 0;
+    float: right;
+    width: 93%;
+    background: url(images/project-grid-transparent.png);
+}
+.moverspackers-aboutus,
+.moverspackers-liststyle-two {
+    float: left;
+    width: 100%;
+}
+.moverspackers-aboutus {
+    padding: 104px 0 0;
+}
+.moverspackers-aboutus-heading {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 27px;
+    line-height: 1;
+    letter-spacing: 1.6px;
+}
+.moverspackers-aboutus-heading small {
+    font-size: 18px;
+    display: block;
+    font-weight: 500;
+    margin: 0 0 2px;
+    letter-spacing: 1.4px;
+}
+.moverspackers-aboutus p {
+    margin: 0 0 24px;
+    line-height: 26px;
+}
+.moverspackers-aboutus h5 {
+    font-weight: 700;
+    margin: 0 0 26px;
+}
+.moverspackers-liststyle-two li i {
+    position: absolute;
+    left: 0;
+    top: 6px;
+    font-size: 15px;
+}
+.moverspackers-liststyle-two li {
+    float: left;
+    width: 50%;
+    position: relative;
+    margin: 0 0 17px;
+    letter-spacing: 0.8px;
+    list-style: none;
+    padding: 0 0 0 30px;
+}
+.moverspackers-aboutus-thumb figure {
+    float: right;
+    margin: 0 11px -21px 0;
+    width: 307px;
+}
+.moverspackers-about-service {
+    float: left;
+    width: 91px;
+    margin: 55px 0 0 -16px;
+    position: relative;
+}
+.moverspackers-about-service li {
+    float: left;
+    width: 100%;
+    margin: 0 0 40px;
+    list-style: none;
+    text-align: center;
+    height: 94px;
+    position: relative;
+    z-index: 1;
+}
+.moverspackers-about-service:before {
+    content: "";
+    background: url(images/aboutus-shape-one.png);
+    position: absolute;
+    left: -13px;
+    top: 50px;
+    width: 37px;
+    height: 100px;
+}
+.moverspackers-about-service:after {
+    content: "";
+    background: url(images/aboutus-shape-two.png);
+    position: absolute;
+    right: 12px;
+    bottom: 72px;
+    width: 37px;
+    height: 100px;
+}
+.moverspackers-about-service li:last-child {
+    margin: 0;
+}
+.moverspackers-about-service li span {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 11px 28px 0 0;
+}
+.moverspackers-about-service li span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 66px;
+    height: 66px;
+    border: 2px solid;
+}
+.moverspackers-about-service li i {
+    display: inline-block;
+    font-size: 38px;
+    position: relative;
+    color: #fff;
+}
+.counter-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+.moverspackers-counter ul li span,
+.moverspackers-counter {
+    float: left;
+    width: 100%;
+}
+.moverspackers-counter {
+    text-align: center;
+}
+.moverspackers-counter ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    margin: 0 0 30px;
+}
+.moverspackers-counter-wrap {
+    display: inline-block;
+    width: 75%;
+}
+.moverspackers-counter-wrap i {
+    font-size: 65px;
+    float: left;
+    margin: 0;
+}
+.moverspackers-counter-wrap i ~ .moverspackers-counter-text {
+    padding: 0 0 0 87px;
+}
+.moverspackers-counter-text {
+    text-align: left;
+}
+.moverspackers-counter ul li .numscroller,
+.moverspackers-counter ul li small {
+    font-size: 40px;
+    margin: 3px 0 1px;
+    line-height: 1;
+    font-weight: 600;
+    float: left;
+    color: #fff;
+    font-family: roboto, sans-serif;
+}
+.moverspackers-counter ul li span {
+    color: #fff;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+.moverspackers-quote-form {
+    margin: 0 0 31px;
+}
+.moverspackers-quote-form,
+.moverspackers-quote-form form,
+.moverspackers-quote-form ul li input[type="text"],
+.moverspackers-quote-form ul li input[type="email"] {
+    float: left;
+    width: 100%;
+}
+.moverspackers-quote-form ul {
+    margin: 0 -15px;
+}
+.moverspackers-quote-form ul li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    padding: 0 15px;
+    margin: 0 0 29px;
+}
+.moverspackers-quote-form ul li.heading {
+    margin: 0;
+}
+.moverspackers-quote-form ul li.full-width {
+    width: 50%;
+}
+.moverspackers-quote-form ul li .moverspackers-section-heading {
+    font-weight: 500;
+}
+.moverspackers-quote-form ul li label {
+    margin: 0 0 9px;
+    float: left;
+    line-height: 0.8;
+    font-size: 16px;
+    color: #666;
+}
+.moverspackers-quote-form ul li input[type="email"],
+.moverspackers-quote-form ul li input[type="text"] {
+    height: 40px;
+    background-color: #f5f5f5;
+    padding-left: 15px;
+}
+.moverspackers-quote-form ul li input[type="submit"] {
+    float: left;
+    padding: 4px 26px 6px;
+    color: #999;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    letter-spacing: 0.9px;
+}
+.moverspackers-quote-form ul li input[type="submit"]:hover {
+    color: #fff;
+}
+.moverspackers-contact-info {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.moverspackers-contact-info ul li {
+    list-style: none;
+    margin-bottom: 17px;
+}
+.moverspackers-contact-info-text {
+    padding: 13px 70px 16px 30px;
+    position: relative;
+    overflow: hidden;
+}
+.moverspackers-contact-info-text h5 {
+    margin: 0 0 7px;
+    color: #fff;
+    font-weight: 700;
+}
+.moverspackers-contact-info-text p,
+.moverspackers-contact-info-text a {
+    color: #fff;
+    line-height: 20px;
+    margin: 0;
+    letter-spacing: 0.8px;
+}
+.moverspackers-contact-info-text a {
+    float: left;
+}
+.moverspackers-contact-info span {
+    position: absolute;
+    right: 13px;
+    top: 15px;
+}
+.moverspackers-contact-info span:before {
+    content: "";
+    position: absolute;
+    right: -45px;
+    top: -43px;
+    width: 102px;
+    height: 102px;
+    border-radius: 100%;
+}
+.moverspackers-contact-info span i {
+    position: relative;
+    font-size: 37px;
+}
+.moverspackers-coomingsoon-content {
+    background-image: url(extra-images/coomingsoon-back-img.jpg);
+    background-position: top center;
+    position: relative;
+    padding: 192px 0 0;
+}
+.coomingsoon-transparent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.94;
+}
+.moverspackers-coomingsoon,
+.logo-two,
+.moverspackers-coomingsoon form input[type="text"] {
+    float: left;
+    width: 100%;
+}
+.logo-two {
+    margin: 0 0 55px;
+}
+.moverspackers-coomingsoon h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0 2px;
+    letter-spacing: 1.3px;
+}
+.moverspackers-coomingsoon h2 span {
+    font-weight: 700;
+}
+.moverspackers-coomingsoon h3 {
+    font-size: 80px;
+    color: #fff;
+    line-height: 1.1;
+    margin: 0 0 44px;
+    letter-spacing: 4.8px;
+    font-weight: 500;
+}
+.moverspackers-coomingsoon p {
+    margin: 0 0 24px;
+    color: #fff;
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+}
+.moverspackers-coomingsoon form {
+    float: left;
+    width: 52%;
+    position: relative;
+    margin: 0 0 39px;
+}
+.moverspackers-coomingsoon form input[type="text"] {
+    background-color: #fff;
+    font-size: 10px;
+    color: #666;
+    font-style: italic;
+    padding-left: 15px;
+    height: 40px;
+}
+.moverspackers-coomingsoon form input[type="submit"] {
+    padding: 10px 18px 11px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 13px;
+    border: none;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+.moverspackers-countdown,
+.moverspackers-countdown .countdown-row {
+    float: left;
+    width: 100%;
+}
+.moverspackers-countdown {
+    margin: 0 0 10px;
+}
+.moverspackers-countdown .countdown-section {
+    float: left;
+    width: 110px;
+    margin: 0 63px 50px 0;
+    font-family: roboto, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 7px 0 21px;
+}
+.moverspackers-countdown .countdown-section:last-child {
+    margin: 0;
+}
+.moverspackers-countdown .countdown-amount {
+    display: block;
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.moverspackers-countdown .countdown-period {
+    font-size: 20px;
+    letter-spacing: 1.8px;
+}
+.moverspackers-coomingsoon-social {
+    float: left;
+    width: 100%;
+}
+.moverspackers-coomingsoon-social li {
+    float: left;
+    margin: 0 15px 0 0;
+    list-style: none;
+}
+.moverspackers-coomingsoon-social li a {
+    font-size: 23px;
+}
+.moverspackers-coomingsoon-social li a.fa-facebook-square {
+    color: #3b5999;
+}
+.moverspackers-coomingsoon-social li a.fa-twitter-square {
+    color: #00acee;
+}
+.moverspackers-coomingsoon-social li a.fa-linkedin-square {
+    color: #0080af;
+}
+.moverspackers-coomingsoon-social li a.fa-flickr {
+    color: #eb4a89;
+}
+.moverspackers-coomingsoon-copyright {
+    float: left;
+    width: 100%;
+    background-color: #4c4b54;
+    text-align: center;
+    position: relative;
+    padding: 12px 0 15px;
+}
+.moverspackers-coomingsoon-copyright p {
+    color: #ccc;
+    margin: 0;
+}
+.moverspackers-coomingsoon-copyright p i {
+    font-size: 13px;
+}
+.moverspackers-coomingsoon-copyright p a {
+    color: #ccc;
+    text-transform: uppercase;
+}
+.moverspackers-contactfull {
+    padding-bottom: 0;
+}
+.moverspackers-contact-form,
+.moverspackers-contact-form form ul li label,
+.moverspackers-contact-info,
+.moverspackers-contact-widget ul li,
+.moverspackers-contact-info-text,
+.moverspackers-contact-map,
+.moverspackers-404-error,
+.moverspakers-search-text h2,
+.moverspakers-search-text p,
+.moverspackers-contact-form ul li textarea,
+.moverspackers-contact-form ul li input[type="text"],
+.moverspackers-contact-form form ul li input[type="email"] {
+    float: left;
+    width: 100%;
+}
+.moverspackers-contact-map iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+.moverspackers-contact-form {
+    margin-bottom: 82px;
+}
+.moverspackers-contact-form ul {
+    margin: 0 -12px;
+}
+.moverspackers-contact-form ul li {
+    float: left;
+    list-style: none;
+    width: 50%;
+    padding: 0 12px;
+    margin: 0 0 29px;
+}
+.moverspackers-contact-form ul li label {
+    margin: 0 0 9px;
+    color: #222;
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    line-height: 0.8;
+}
+.moverspackers-contact-form ul li input[type="text"],
+.moverspackers-contact-form form ul li input[type="email"] {
+    height: 50px;
+    background-color: #f5f5f5;
+    font-size: 12px;
+    color: #999;
+    padding-left: 15px;
+    letter-spacing: 0.6px;
+}
+.moverspackers-contact-form ul li.coment-box {
+    float: right;
+}
+.moverspackers-contact-form ul li textarea {
+    height: 252px;
+    color: #545454;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    padding: 15px 0 0 15px;
+    letter-spacing: 0.6px;
+}
+.moverspackers-contact-form ul li input[type="submit"] {
+    float: left;
+    border: none;
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    color: #999;
+    border: 1px solid #ccc;
+    padding: 4px 24px 6px;
+    letter-spacing: 0.9px;
+}
+.moverspackers-contact-form ul li input[type="submit"]:hover {
+    color: #fff;
+}
+.moverspackers-404-error {
+    padding: 20px 0 110px;
+}
+.moverspakers-error-wrap {
+    width: 855px;
+    background-image: url(extra-images/eror-back-img.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 229px 0 72px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.moverspakers-error-text {
+    float: left;
+    width: 78%;
+    text-align: center;
+    padding: 0 40px 0 44px;
+}
+.moverspakers-error-text h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 100px;
+    margin: 0 0 5px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 6.5px;
+}
+.moverspakers-error-text span {
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1.1px;
+    margin-bottom: 39px;
+}
+.moverspakers-error-text p {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 23px;
+    color: #666;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+}
+.moverspakers-error-btn {
+    display: inline-block;
+    border: 1px solid;
+    font-size: 14px;
+    color: #fff;
+    padding: 11px 21px 13px;
+    line-height: 1;
+    letter-spacing: 0.8px;
+}
+.moverspakers-faq-content {
+    padding-bottom: 0;
+}
+.moverspakers-faq-accordion {
+    float: left;
+    width: 100%;
+}
+.moverspakers-faq-accordion .panel {
+    border-radius: 0;
+    box-shadow: none;
+    position: relative;
+}
+.moverspakers-faq-accordion.panel-group {
+    margin: 0 0 110px;
+}
+.moverspakers-faq-accordion.panel-group .panel {
+    border-radius: 0;
+}
+.moverspakers-faq-accordion .panel-default {
+    border: none;
+}
+.moverspakers-faq-accordion .panel-default > .panel-heading {
+    background-color: inherit;
+    color: #fff;
+}
+.moverspakers-faq-accordion .panel-title {
+    font-weight: 400;
+}
+.moverspakers-faq-accordion .panel-title > a {
+    padding: 14px 20px 13px 55px;
+    display: block;
+    font-style: normal;
+    letter-spacing: 0.9px;
+}
+.moverspakers-faq-accordion.panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: none;
+    border-left: 1px solid #ececec;
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+}
+.moverspakers-faq-accordion .panel-title > a:before,
+.moverspakers-faq-accordion .panel-title > .collapsed:before {
+    content: "\e901";
+    position: absolute;
+    left: 17px;
+    top: 15px;
+    font-family: icomoon;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+}
+.moverspakers-faq-accordion .panel-heading {
+    padding: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.moverspakers-faq-accordion .panel-title > .collapsed:before {
+    content: "\e902";
+}
+.moverspakers-faq-accordion.panel-group .panel + .panel {
+    margin-top: 30px;
+}
+.moverspakers-faq-thumb {
+    position: absolute;
+    right: -44px;
+    top: 69px;
+}
+.moverspakers-faq-accordion .panel-body {
+    padding: 21px 24px 22px 47px;
+}
+.moverspakers-faq-accordion .panel-body p {
+    line-height: 26px;
+    margin: 0;
+    letter-spacing: 0.8px;
+}
+.moverspakers-search-text {
+    float: left;
+    width: 100%;
+    margin-bottom: 69px;
+}
+.moverspakers-search-text h2 {
+    font-size: 40px;
+    color: #222;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 17px;
+    line-height: 1;
+    letter-spacing: 2.4px;
+}
+.moverspakers-search-text p {
+    margin: 0 0 42px;
+    letter-spacing: 0.9px;
+}
+.moverspakers-search-text form {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.moverspakers-search-text form input[type="text"] {
+    height: 45px;
+    padding-left: 20px;
+    color: #999;
+    font-size: 12px;
+    font-style: italic;
+    background-color: #f5f5f5;
+    float: left;
+    width: 100%;
+}
+.moverspakers-search-text form input[type="submit"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 45px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #666;
+    background-color: #ddd;
+    padding: 0 27px;
+}
+.moverspakers-search-text form input[type="submit"]:hover {
+    color: #fff;
+}
+.output_message {
+    float: left;
+    width: 80%;
+    padding-left: 20px;
+}
+.success-msg,
+.spam-error-msg,
+.error-msg {
+    float: left;
+    padding: 7px 0 7px 40px;
+    width: 100%;
+    font-style: normal;
+    border-radius: 4px;
+    background: #d4fecc;
+    color: #5a974f;
+    position: relative;
+}
+.spam-error-msg {
+    background: #fefccb;
+    color: #8f9031;
+}
+.error-msg {
+    background-color: red;
+    color: #fff;
+}
+.success-msg > i,
+.spam-error-msg > i,
+.error-msg > i {
+    position: absolute;
+    left: 15px;
+    top: 7px;
+    color: #5a974f;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.spam-error-msg > i {
+    color: #8f9031;
+}
+.error-msg > i {
+    color: #fff;
+}
+.widget_contact_form .output_message {
+    width: 100%;
+    padding: 10px 0 0;
+}
+.moverspackers-contact-form ul li.full-form,
+.comment-respond form p.full-form {
+    width: 100%;
+}
+.comment-respond form p input[type="submit"] {
+    float: left;
+}
